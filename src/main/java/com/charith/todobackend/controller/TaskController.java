@@ -27,6 +27,4 @@ public class TaskController {
     public ResponseEntity<List<TaskDTO>> getRecent5Tasks() {
         return ResponseEntity.ok(taskService.getRecent5Tasks());
     }
-
-
 }
